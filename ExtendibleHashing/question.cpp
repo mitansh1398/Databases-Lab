@@ -18,9 +18,14 @@ int ExtendibleHashing::getBucketIndex(int val){
 }
 
 void ExtendibleHashing::insertElement(int val){
+	if(searchElement(val)){
+		cout<<"can't insert duplicate element"<<endl;
+		return;
+	}
 	int bucketIndex = getBucketIndex(val);
 	while(this->dir[bucketIndex]->bucket.size()==this->bucketSize){
-		this->splitBucket(bucketIndex);
+		this->splitBucket(bucketIndex&(twoPower(dir[bucketIndex]->localDepth)-1));
+		bucketIndex = getBucketIndex(val);
 	}
 	bucketIndex = getBucketIndex(val);
 	this->dir[bucketIndex]->bucket.push_back(val);
@@ -59,24 +64,42 @@ void ExtendibleHashing::splitBucket(int bucketIndex){
 	if(this->globalDepth==this->dir[bucketIndex]->localDepth){
 		this->doubleHashTable();	
 	}
-
+	// printHashTable();
 	int localDepthPower = twoPower(this->dir[bucketIndex]->localDepth);
+	// printHashTable();
 	int firstBucketIndex = bucketIndex&(localDepthPower-1);
-	int secondBucketindex = bucketIndex + localDepthPower;
-	this->dir[secondBucketindex] = new Bucket;
+	// printHashTable();
+	int secondBucketIndex = bucketIndex + localDepthPower;
+	// printHashTable();
+	// cout<<bucketIndex<<endl;
+	// cout<<localDepthPower<<endl;
+	// cout<<secondBucketIndex<<endl;
+	this->dir[secondBucketIndex] = new Bucket();
+	// printHashTable();
 	this->dir[firstBucketIndex]->localDepth++;
-	this->dir[secondBucketindex]->localDepth =  this->dir[firstBucketIndex]->localDepth;
-	for(auto it = this->dir[firstBucketIndex]->bucket.begin(); this->dir[firstBucketIndex]->bucket.end()!=it; it++){
+	// printHashTable();
+	this->dir[secondBucketIndex]->localDepth =  this->dir[firstBucketIndex]->localDepth;
+	// cout<<"1"<<endl;
+	// printHashTable();
+	// cout<<"2"<<endl;
+	for(auto it = this->dir[firstBucketIndex]->bucket.begin(); it!=(this->dir[firstBucketIndex]->bucket).end();){
+		// cout<<"it's in"<<endl;
+		// printHashTable();
 		if((*it)&localDepthPower){
-			this->dir[firstBucketIndex]->bucket.push_back(*it);
-			this->dir[firstBucketIndex]->bucket.erase(it);
+			this->dir[secondBucketIndex]->bucket.push_back(*it);
+			it = this->dir[firstBucketIndex]->bucket.erase(it);
+		} else {
+			it++;
 		}
 	}
-	localDepthPower <<= 1;
-	for(int i=secondBucketindex+localDepthPower; i<(this->dir.size()); i+=localDepthPower){
+	// cout<<"it's out"<<endl;
+	// printHashTable();
+	localDepthPower *= 2;
+	for(int i=secondBucketIndex+localDepthPower; i<(this->dir.size()); i+=localDepthPower){
+		// printHashTable();
 		this->dir[i] = this->dir[localDepthPower];
 	}
-
+	// printHashTable();
 }
 
 int ExtendibleHashing::twoPower(int p){
@@ -84,5 +107,20 @@ int ExtendibleHashing::twoPower(int p){
 }
 
 void ExtendibleHashing::printHashTable(){
-	
+	cout<<"\n ***** Hash Table ***** \n"<<endl;
+	cout<<"globalDepth :: " << this->globalDepth<<endl;
+	unordered_set<Bucket*> uset;
+	cout<<"localDepth ::| Elements |"<<endl;
+	for(int i=0; i<this->dir.size(); i++){
+		if(uset.find(this->dir[i])!=uset.end())
+			continue;
+		cout<<i<<" :: | ";
+		cout<<this->dir[i]->localDepth<<" :: | ";
+		uset.insert(this->dir[i]);
+		for(auto l:this->dir[i]->bucket){
+			cout<<l<<" ";
+		}
+		cout<<"|" <<endl;
+	}
+	cout<<endl;
 }

@@ -47,11 +47,15 @@ int main(){
 				int del;
 				cout<<"Enter element to delete: ";
 				cin>>del;
-				cout<<"Functionality not supported"<<endl;
+				if(d->deleteElement(del))
+					cout<<"Element is deleted"<<endl;
+				else
+					cout<<"Element is not found"<<endl;
+				break;
 			case 5:
 				d->printHashTable();
 				break;
-			case -1:
+			case 0:
 				return 0;
 			default:
 				cout<<"Invalid Choice"<<endl;

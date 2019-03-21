@@ -26,11 +26,11 @@ class LinearHashing{
     }
 
     int getBucketIndex(int val){
-        int h0 = (n<<(this->level)) - 1;
-        int indexVal = h0&val;
+        int h0 = (n<<(this->level));
+        int indexVal = val%h0;
         if(indexVal < next){
-            int h1 = 2*h0+1;
-            int indexVal = h1&val;
+            int h1 = (n<<(this->level+1));
+            indexVal = val%h1;
         }
         return indexVal;
     }
@@ -47,7 +47,7 @@ class LinearHashing{
         list<int> &firstBucket = this->dir[next]->bucket;
         list<int> &secondBucket = this->dir[this->dir.size()-1]->bucket;
         for(auto it = firstBucket.begin(); it!=firstBucket.end();){
-            if((n<<(this->level))&*it){
+            if((*it)%(n<<(this->level+1))!=next){
                 secondBucket.push_back(*it);
                 it = firstBucket.erase(it);
             } else {
@@ -58,10 +58,11 @@ class LinearHashing{
 
     void insertElement(int val){
         int bucketIndex = this->getBucketIndex(val);
+        cout<<"bucket index is "<<bucketIndex<<endl;
         if(this->isBucketOverflow(bucketIndex)){
             this->splitBucket();
             if(bucketIndex <= next){
-                this->dir[(((n<<(this->level+1))-1)&val)]->bucket.push_back(val);
+                this->dir[val%(n<<(this->level+1))]->bucket.push_back(val);
             } else {
                 this->dir[bucketIndex]->bucket.push_back(val);
             }
@@ -76,6 +77,7 @@ class LinearHashing{
             this->dir[bucketIndex]->bucket.push_back(val);
         }
         cout<<"Insered into "<<bucketIndex<<endl;
+        // printHashTable();
     }
 
     void printHashTable(){
@@ -89,9 +91,8 @@ class LinearHashing{
             cout<<index<<" >> ";
             for(auto it2:(*it)->bucket){
                 cout<<it2<<" ";
-                cout<<"|";
             }
-            cout<<endl;
+            cout<<" | "<<endl;
             index++;
         }
     }
@@ -100,6 +101,17 @@ class LinearHashing{
         int bucketIndex = getBucketIndex(val);
         for(auto it:(this->dir[bucketIndex])->bucket){
             if(it==val){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    bool deleteElement(int val){
+        int bucketIndex = this->getBucketIndex(val);
+        for(auto itr = this->dir[bucketIndex]->bucket.begin(); itr!=this->dir[bucketIndex]->bucket.end(); itr++){
+            if(*itr==val){
+                this->dir[bucketIndex]->bucket.erase(itr);
                 return true;
             }
         }
