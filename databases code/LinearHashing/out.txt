@@ -1,0 +1,313 @@
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 1
+Enter number of buckets: Enter number of entries in bucket: 1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 1
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 1
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 1
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 2
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 2
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 2
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 2
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 3
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 3
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 3
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 3
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 0
+INDEX | ELEMENTS
+next => 0 >> 32 |44 |36 |
+1 >> 9 |25 |5 |
+2 >> 14 |18 |10 |30 |
+3 >> 31 |35 |7 |11 |
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 3
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 0
+INDEX | ELEMENTS
+0 >> 32 |
+next => 1 >> 9 |25 |5 |
+2 >> 14 |18 |10 |30 |
+3 >> 31 |35 |7 |11 |43 |
+4 >> 44 |36 |
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 1
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 0
+INDEX | ELEMENTS
+0 >> 32 |
+next => 1 >> 9 |25 |5 |37 |
+2 >> 14 |18 |10 |30 |
+3 >> 31 |35 |7 |11 |43 |
+4 >> 44 |36 |
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 1
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 0
+INDEX | ELEMENTS
+0 >> 32 |
+1 >> 9 |25 |
+next => 2 >> 14 |18 |10 |30 |
+3 >> 31 |35 |7 |11 |43 |
+4 >> 44 |36 |
+5 >> 5 |37 |29 |
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 2
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 2
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 2
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 0
+INDEX | ELEMENTS
+0 >> 32 |
+1 >> 9 |25 |
+2 >> 18 |10 |66 |34 |
+next => 3 >> 31 |35 |7 |11 |43 |
+4 >> 44 |36 |
+5 >> 5 |37 |29 |
+6 >> 14 |30 |22 |
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 2
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 1
+INDEX | ELEMENTS
+next => 0 >> 32 |
+1 >> 9 |25 |
+2 >> 18 |10 |66 |34 |50 |
+3 >> 35 |11 |43 |
+4 >> 44 |36 |
+5 >> 5 |37 |29 |
+6 >> 14 |30 |22 |
+7 >> 31 |7 |
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 3
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 3
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 1
+INDEX | ELEMENTS
+0 >> 32 |48 |
+next => 1 >> 9 |25 |
+2 >> 18 |10 |66 |34 |50 |
+3 >> 35 |11 |43 |19 |27 |
+4 >> 44 |36 |
+5 >> 5 |37 |29 |
+6 >> 14 |30 |22 |
+7 >> 31 |7 |
+8 >> 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered -1

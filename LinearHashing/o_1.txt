@@ -23,823 +23,6 @@ Any other choice to exit
 Enter your choice: You entered 5
 level = 0
 INDEX | ELEMENTS
-next => 0 >> 64  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
-next => 0 >> 64 51  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
-next => 0 >> 64 51 4  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
-next => 0 >> 64 51 4 16  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-next => 0 >> 64 4 16  | 
-1 >> 51 15  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-next => 0 >> 64 4 16 12  | 
-1 >> 51 15  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-next => 0 >> 64 4 16 12  | 
-1 >> 51 15 5  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-0 >> 64 4 16 12  | 
-next => 1 >> 51 15 5  | 
-2 >> 10  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 2
-Insered into 2
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-0 >> 64 4 16 12  | 
-next => 1 >> 51 15 5  | 
-2 >> 10 18  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 2
-INDEX | ELEMENTS
-next => 0 >> 64 4 16 12 20  | 
-1 >> 5  | 
-2 >> 10 18  | 
-3 >> 51 15  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 4
-Enter element to delete: Element is deleted
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 2
-INDEX | ELEMENTS
-next => 0 >> 64 4 16 12 20  | 
-1 >> 5  | 
-2 >> 18  | 
-3 >> 51 15  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 4
-Enter element to delete: Element is deleted
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 2
-INDEX | ELEMENTS
-next => 0 >> 64 4 16 12 20  | 
-1 >> 5  | 
-2 >>  | 
-3 >> 51 15  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 3
-Insered into 3
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 2
-INDEX | ELEMENTS
-next => 0 >> 64 4 16 12 20  | 
-1 >> 5  | 
-2 >>  | 
-3 >> 51 15 7  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 2
-INDEX | ELEMENTS
-next => 0 >> 64 4 16 12 20  | 
-1 >> 5 21  | 
-2 >>  | 
-3 >> 51 15 7  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 1
-Enter number of buckets: Enter number of entries in bucket: 1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-next => 0 >> 0  | 
-1 >> 1  | 
-2 >> 2  | 
-3 >> 3  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-0 >> 0  | 
-next => 1 >> 1  | 
-2 >> 2  | 
-3 >> 3  | 
-4 >> 4  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 2
-Insered into 2
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 3
-Insered into 3
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 2
-INDEX | ELEMENTS
-next => 0 >> 0  | 
-1 >> 1  | 
-2 >> 2  | 
-3 >> 3  | 
-4 >> 4  | 
-5 >> 5  | 
-6 >> 6  | 
-7 >> 7  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 1
-Enter number of buckets: Enter number of entries in bucket: 1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
-next => 0 >> 16  | 
-1 >>  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
-next => 0 >> 16 32  | 
-1 >>  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
-0 >> 16 32 0  | 
-next => 1 >>  | 
-2 >>  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
-0 >> 16 32 0 64  | 
-next => 1 >>  | 
-2 >>  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 1
-Enter number of buckets: Enter number of entries in bucket: 1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
-0 >> 4 12 32 16  | 
-next => 1 >> 15 1 5 7 21 19 13  | 
-2 >> 10  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-next => 0 >> 4 12 32 16 20  | 
-1 >> 1 5 21 13  | 
-2 >> 10  | 
-3 >> 15 7 19  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-0 >> 32 16  | 
-next => 1 >> 1 5 21 13 9  | 
-2 >> 10  | 
-3 >> 15 7 19  | 
-4 >> 4 12 20  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 1
-Enter number of buckets: Enter number of entries in bucket: 1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 1
-INDEX | ELEMENTS
-0 >> 64 4 16 12  | 
-next => 1 >> 51 15 5  | 
-2 >> 10  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 2
-Insered into 2
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 3
-Insered into 3
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 1
-Insered into 1
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 2
-INDEX | ELEMENTS
-next => 0 >> 64 4 16 12 20  | 
-1 >> 5 21  | 
-2 >> 10 18  | 
-3 >> 51 15 7  | 
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 1
-Enter number of buckets: Enter number of entries in bucket: 1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 2
-Enter element to add: bucket index is 0
-Insered into 0
-1. Create new LinearHashTable
-2. Add an element to the HashTable
-3. Search an element to the HashTable
-4. Delete an element from the HashTable
-5. Print HashTable
-Any other choice to exit
-Enter your choice: You entered 5
-level = 0
-INDEX | ELEMENTS
 next => 0 >> 4  | 
 1. Create new LinearHashTable
 2. Add an element to the HashTable
@@ -960,6 +143,1176 @@ INDEX | ELEMENTS
 0 >> 4 16 32 64 128 8 256  | 
 next => 1 >>  | 
 2 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 1
+INDEX | ELEMENTS
+0 >> 4 16 32 64 128 8 256 4096  | 
+next => 1 >>  | 
+2 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 1
+INDEX | ELEMENTS
+0 >> 4 16 32 64 128 8 256 4096 512  | 
+next => 1 >>  | 
+2 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+next => 0 >> 4 16 32 64 128 8 256 4096 512 1024  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+next => 0 >> 4 16 32 64 128 8 256 4096 512 1024 2048  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+next => 0 >> 4 16 32 64 128 8 256 4096 512 1024 2048 256  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096  | 
+next => 1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512  | 
+1 >>  | 
+next => 2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512 1024  | 
+1 >>  | 
+next => 2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512 1024 2048  | 
+1 >>  | 
+next => 2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512 1024 2048 4096  | 
+1 >>  | 
+2 >>  | 
+next => 3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512  | 
+1 >>  | 
+2 >>  | 
+next => 3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 2
+INDEX | ELEMENTS
+0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024  | 
+1 >>  | 
+2 >>  | 
+next => 3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+next => 0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+next => 0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+next => 0 >> 16 32 64 128 8 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512  | 
+next => 1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024  | 
+1 >>  | 
+next => 2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8  | 
+9 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048  | 
+1 >>  | 
+next => 2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8  | 
+9 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32  | 
+1 >>  | 
+next => 2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8  | 
+9 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64  | 
+1 >>  | 
+2 >>  | 
+next => 3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8  | 
+9 >>  | 
+10 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128  | 
+1 >>  | 
+2 >>  | 
+next => 3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8  | 
+9 >>  | 
+10 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 8
+Insered into 8
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128  | 
+1 >>  | 
+2 >>  | 
+next => 3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256  | 
+1 >>  | 
+2 >>  | 
+next => 3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+next => 4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+next => 4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+next => 4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+next => 5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+next => 5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+next => 5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+next => 6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+next => 6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+next => 6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+next => 7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+next => 7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 3
+INDEX | ELEMENTS
+0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+next => 7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 4
+INDEX | ELEMENTS
+next => 0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+15 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 4
+INDEX | ELEMENTS
+next => 0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+15 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 4
+INDEX | ELEMENTS
+next => 0 >> 16 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096  | 
+1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+15 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 4
+INDEX | ELEMENTS
+0 >> 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512  | 
+next => 1 >>  | 
+2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+15 >>  | 
+16 >> 16  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 4
+INDEX | ELEMENTS
+0 >> 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024  | 
+1 >>  | 
+next => 2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+15 >>  | 
+16 >> 16  | 
+17 >>  | 
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: bucket index is 0
+Insered into 0
+1. Create new LinearHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+level = 4
+INDEX | ELEMENTS
+0 >> 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048 32 64 128 256 4096 512 1024 2048 256 4096 512 1024 2048 4096 512 1024 2048 256 4096 512 1024 2048  | 
+1 >>  | 
+next => 2 >>  | 
+3 >>  | 
+4 >> 4  | 
+5 >>  | 
+6 >>  | 
+7 >>  | 
+8 >> 8 8  | 
+9 >>  | 
+10 >>  | 
+11 >>  | 
+12 >>  | 
+13 >>  | 
+14 >>  | 
+15 >>  | 
+16 >> 16  | 
+17 >>  | 
 1. Create new LinearHashTable
 2. Add an element to the HashTable
 3. Search an element to the HashTable
