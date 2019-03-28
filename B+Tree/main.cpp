@@ -25,8 +25,8 @@ int main(){
         cin>>numIndexPointers;
         cout<<"Enter number of Data pointers: ";
         cin>>numDataPointers;
-        if(numIndexPointers%2==0 || numDataPointers%2){
-        	cout<<"Note:: Index pointers must be in odd number and Data pointers must be in even number"<<endl;
+        if(numIndexPointers%2 || numDataPointers%2){
+        	cout<<"Note:: Index pointers must be in even number and Data pointers must be in even number"<<endl;
         	exit(0);
         }
         tree = new BPlusTree(numIndexPointers, numDataPointers);

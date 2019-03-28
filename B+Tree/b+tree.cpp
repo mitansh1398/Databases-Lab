@@ -6,7 +6,7 @@ BPlusTree::BPlusTree(int numIndexPointers,int numDataPointers){
 	root = new DataNode(numDataPointers);
 	this->numIndexPointers = numIndexPointers;
 	this->numDataPointers = numDataPointers;
-	depth = 0;
+	this->depth = 0;
 }
 
 IndexNode* BPlusTree::toIndexNode(void *p){
@@ -53,16 +53,15 @@ void BPlusTree::insert(int key){
 	else{
 		IndexNode *root = toIndexNode(this->root);
 		int newValue;
-		void* temp = insertNonLeafNode(root, key, this->depth, newValue);
-		if(temp!=NULL){
-			this->root = toIndexNode(temp);
-		}
+		void* temp = insertNonLeafNode(root, key, 0, newValue);
 	}
 }
 
 
 void* BPlusTree::insertLeafNode(DataNode *x, int newKey, int &newValue){
+	cout<<"Value inserted : "<<newKey<<endl;
 	int lb = x->nodeLowerBound(newKey);
+	cout<<lb<<endl;
 	for(int i=x->getNumKeys()-1; i>=lb; i--){
 		x->setKeyAtIndex(x->getKeyAtIndex(i), i+1);
 	}
@@ -81,15 +80,19 @@ void* BPlusTree::insertLeafNode(DataNode *x, int newKey, int &newValue){
 		}
 		x->setDataNodeRight(newChild);
 		newValue = x->getKeyAtIndex(x->getNumKeys()-1);
+		// x->printNode();
+		// newChild->printNode();
 		return newChild;
 	}
 	return NULL;
 }
 
 void* BPlusTree::insertNonLeafNode(IndexNode *x, int newKey, int depth, int &newValue){
+	cout<<"Index"<<depth<<endl;
 	int lb = x->nodeLowerBound(newKey);
+	cout<<lb<<endl;
 	void* temp;
-	if(depth+1<this->depth){
+	if(depth+1==this->depth){
 		temp = insertLeafNode(toDataNode(x->getIndexPointerAt(lb)), newKey, newValue);
 	} else {
 		temp = insertNonLeafNode(toIndexNode(x->getIndexPointerAt(lb)), newKey, depth+1, newValue);
@@ -97,24 +100,29 @@ void* BPlusTree::insertNonLeafNode(IndexNode *x, int newKey, int depth, int &new
 	if(temp==NULL){
 		return NULL;
 	} else {
+		// cout<<"node being inserted"<<newValue<<endl;
 		for(int i=x->getNumKeys()-1; i>=lb; i--){
 			x->setKeyAtIndex(x->getKeyAtIndex(i), i+1);
 		}
 		x->setKeyAtIndex(newValue, lb);
+		x->incrementNumKeys();
 		for(int i=x->getNumKeys(); i>lb; i--){
 			x->setIndexPointerAt(x->getIndexPointerAt(i), i+1);
 		}
 		x->setIndexPointerAt(temp, lb+1);
 		if(x->getNumKeys()==numIndexPointers){
+			// cout<<"chalta hai ye"<<endl;
+			// cout<<toDataNode(temp)->getKeyAtIndex(0)<<endl;
 			IndexNode* newNode = new IndexNode(numIndexPointers);
-			newValue = x->getKeyAtIndex((numIndexPointers-1)/2);
-			for(int i=(numIndexPointers-1)/2+1; i<numIndexPointers; i++){
+			newValue = x->getKeyAtIndex((numIndexPointers)/2);
+			for(int i=(numIndexPointers)/2+1; i<numIndexPointers; i++){
 				newNode->insertAtEnd(x->getKeyAtIndex(i));
 			}
-			for(int i=(numIndexPointers-1)/2+1; i<=numIndexPointers; i++){
-				newNode->setIndexPointerAt(x->getIndexPointerAt(i), i-(numIndexPointers-1)/2+1);
+			for(int i=(numIndexPointers)/2+1; i<=numIndexPointers; i++){
+				newNode->setIndexPointerAt(x->getIndexPointerAt(i), i-((numIndexPointers)/2+1));
 			}
-			x->setNumKeys((numIndexPointers-1)/2+1);
+			x->setNumKeys((numIndexPointers)/2);
+			// x->printNode();
 			if(depth==0){
 				IndexNode* newRoot = new IndexNode(numIndexPointers);
 				newRoot->setIndexPointerAt(x, 0);
@@ -122,6 +130,7 @@ void* BPlusTree::insertNonLeafNode(IndexNode *x, int newKey, int depth, int &new
 				newRoot->insertAtEnd(newValue);
 				this->root = newRoot;
 				this->depth++;
+				return newRoot;
 			}
 			return newNode;
 		}

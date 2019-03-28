@@ -13,9 +13,17 @@ void Node::decrementNumKeys(){
 	numKeys--;
 } 
 
+void Node::printNode(){
+	for(int i=0; i<numKeys; i++){
+		cout<<keys[i]<<" ";
+	}
+	cout<<endl;
+}
+
 int Node::nodeLowerBound(int i){
 	auto it = lower_bound(keys.begin(), keys.begin()+numKeys, i);
-	return (it-keys.begin());
+	int x = it-keys.begin();
+	return x;
 }
 
 
@@ -45,7 +53,7 @@ Node::Node(int totalKeys){
 IndexNode::IndexNode(int numIndexPointers)
 	: Node(numIndexPointers-1)
 {
-	indexPointers.resize(numIndexPointers);
+	indexPointers.resize(numIndexPointers+2);
 }
 
 void* IndexNode::getIndexPointerAt(int i){

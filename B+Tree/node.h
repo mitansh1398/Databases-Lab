@@ -15,6 +15,7 @@ class Node{
 		void decrementNumKeys();
 		int nodeLowerBound(int i);
 		void insertAtEnd(int key);
+		void printNode();
 	private:
 		int numKeys;
 		vector<int> keys;
