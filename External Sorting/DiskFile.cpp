@@ -10,13 +10,19 @@ void DiskFile :: readDiskFile(){
 	vector<int> temp(DISK_PAGE_SIZE,-1);
 	bool flag = true;
 	int x;
-	while(cin >> x){
+	int n;
+	cout<<"Enter number of entries :"<<endl;
+	cin>>n;
+	this->size = n;
+	for(int j=0; j<n; j++){
+		cin>>x;
 		flag = false;
 		temp[i++] = x;
-		this->size++;
+		
 		
 		if(i == DISK_PAGE_SIZE){
 			t.fillPage(temp);
+			t.validEntries = DISK_PAGE_SIZE;
 			this->data.push_back(t);
 			flag = true;
 			this->totalPages++;
@@ -25,11 +31,12 @@ void DiskFile :: readDiskFile(){
 	}
 
 	if(!flag){
-		
+		int z = i;
 		while(i != DISK_PAGE_SIZE){
 			temp[i++] = -1;	
 		}
 		t.fillPage(temp);
+		t.validEntries = z;
 		this->data.push_back(t);
 		this->totalPages++;
 	}

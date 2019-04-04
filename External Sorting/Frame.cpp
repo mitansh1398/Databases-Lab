@@ -23,10 +23,9 @@ void Frame :: fillFrame(vector<int> &v){
 }
 
 //Prints all valid entries of a frame
-void Frame :: printFrame()
-{
-	for(int i = 0; i < this->validEntries; i++)
-	{
-		cout << this->arr[i] << endl;
+void Frame :: printFrame(){
+	for(int i = 0; i < this->validEntries; i++){
+		cout << this->arr[i] << " ";
 	}
+	cout<<endl;
 }

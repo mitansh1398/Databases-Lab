@@ -3,13 +3,14 @@
 //loads nth page of disk file f to an empty frame if available
 int MainMemory :: loadPage(DiskFile &f, int n){
 
-	if(n >= f.totalPages)
+	if(n >= f.totalPages){
 		return -1; // invalid page
-
+	}
 	for(int i = 0; i < this->totalFrames; i++){
 		if(!this->valid[i]){
 			this->data[i].fillFrame(f.data[n].arr);
 			this->valid[i] = true;
+			this->data[i].validEntries = f.data[n].validEntries;
 			return i;
 		}
 	}

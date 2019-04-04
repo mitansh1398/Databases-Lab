@@ -3,16 +3,12 @@
 #include "DiskFile.h"
 #include "ExtMergeSort.h"
 
-using namespace std;
-
 int main()
 {
 	int x;
 	//reads size of main memory in terms of number of frames available
 	cin >> x;
-	if(x%2==0){
-		x--;
-	}
+	
 	//create main memory of x frames
 	MainMemory mm(x);
 
@@ -25,7 +21,7 @@ int main()
 	ExtMergeSort e;
 	
 	//call 2 way externalmerge sort
-	e.DBmultiWaySort(f,mm);
+	e.multiWaySort(f,mm);
 
 	//output file by using cout
 	f.writeDiskFile(); 

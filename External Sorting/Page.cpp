@@ -17,15 +17,14 @@ void Page :: writePage(){
 //fills page with contents from vector v
 void Page :: fillPage(vector<int> &v){
 	
-	if(v.size() < DISK_PAGE_SIZE){
-		cout << "vector should contain atleast as many entries as a page" << endl;
-		exit(1);
-	}
-	int i = 0;
 	this->validEntries = 0;
-	for(i; i < v.size() && i < DISK_PAGE_SIZE; i++){
-		if(v[i] != -1){
-			this->validEntries = i;
+	for(int i = 0; i < v.size() && i < DISK_PAGE_SIZE; i++){
+		this->validEntries = i;
+		if(v[i] == -1){
+			for(int j=i; j<DISK_PAGE_SIZE; j++){
+				this->arr[i] = -1;
+			}
+			break;
 		}
 		this->validEntries++;
 		this->arr[i] = v[i];
