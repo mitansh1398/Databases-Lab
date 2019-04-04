@@ -10,6 +10,9 @@ int main()
 	int x;
 	//reads size of main memory in terms of number of frames available
 	cin >> x;
+	if(x%2){
+		x++;
+	}
 	cout<<"Enter page and frame size: "<<endl;
 	cin>>DISK_PAGE_SIZE;
 	MEM_FRAME_SIZE = DISK_PAGE_SIZE;

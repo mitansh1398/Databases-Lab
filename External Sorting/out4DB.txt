@@ -1,0 +1,103 @@
+Enter Buffer Size: 
+Enter page and frame size: 
+Mem created
+Do you want Double buffering?
+Enter number of entries :
+Contents of Disk File: 
+Page: 0: 67 194 146 
+Page: 1: 69 149 188 
+Page: 2: 127 90 117 
+Page: 3: 9 78 40 
+Page: 4: 132 3 154 
+Page: 5: 180 176 19 
+Page: 6: 80 99 133 
+Page: 7: 0 184 108 
+Page: 8: 143 95 44 
+Page: 9: 66 116 106 
+Page: 10: 28 51 26 
+Page: 11: 158 192 177 
+Page: 12: 189 17 102 
+Page: 13: 54 84 81 
+Page: 14: 25 50 153 
+Page: 15: 160 92 
+######### Double Buffering in action #########
+==========Pass 1 Performed==========
+Current runSize: 6
+Number of Runs: 3
+Current Disk File: 
+Contents of Disk File: 
+Page: 0: 3 9 19 
+Page: 1: 40 67 69 
+Page: 2: 78 90 117 
+Page: 3: 127 132 146 
+Page: 4: 149 154 176 
+Page: 5: 180 188 194 
+Page: 6: 0 26 28 
+Page: 7: 44 51 66 
+Page: 8: 80 95 99 
+Page: 9: 106 108 116 
+Page: 10: 133 143 158 
+Page: 11: 177 184 192 
+Page: 12: 17 25 50 
+Page: 13: 54 81 84 
+Page: 14: 92 102 153 
+Page: 15: 160 189 
+==========Pass 2 performed==========
+Current runSize: 12
+Number of Runs: 2
+Current Disk File: 
+Contents of Disk File: 
+Page: 0: 0 3 9 
+Page: 1: 19 26 28 
+Page: 2: 40 44 51 
+Page: 3: 66 67 69 
+Page: 4: 78 80 90 
+Page: 5: 95 99 106 
+Page: 6: 108 116 117 
+Page: 7: 127 132 133 
+Page: 8: 143 146 149 
+Page: 9: 154 158 176 
+Page: 10: 177 180 184 
+Page: 11: 188 192 194 
+Page: 12: 17 25 50 
+Page: 13: 54 81 84 
+Page: 14: 92 102 153 
+Page: 15: 160 189 
+==========Pass 3 performed==========
+Current runSize: 24
+Number of Runs: 1
+Current Disk File: 
+Contents of Disk File: 
+Page: 0: 0 3 9 
+Page: 1: 17 19 25 
+Page: 2: 26 28 40 
+Page: 3: 44 50 51 
+Page: 4: 54 66 67 
+Page: 5: 69 78 80 
+Page: 6: 81 84 90 
+Page: 7: 92 95 99 
+Page: 8: 102 106 108 
+Page: 9: 116 117 127 
+Page: 10: 132 133 143 
+Page: 11: 146 149 153 
+Page: 12: 154 158 160 
+Page: 13: 176 177 180 
+Page: 14: 184 188 189 
+Page: 15: 192 194 
+Contents of Disk File: 
+Page: 0: 0 3 9 
+Page: 1: 17 19 25 
+Page: 2: 26 28 40 
+Page: 3: 44 50 51 
+Page: 4: 54 66 67 
+Page: 5: 69 78 80 
+Page: 6: 81 84 90 
+Page: 7: 92 95 99 
+Page: 8: 102 106 108 
+Page: 9: 116 117 127 
+Page: 10: 132 133 143 
+Page: 11: 146 149 153 
+Page: 12: 154 158 160 
+Page: 13: 176 177 180 
+Page: 14: 184 188 189 
+Page: 15: 192 194 

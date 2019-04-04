@@ -1,0 +1,45 @@
+Enter Buffer Size: 
+Enter page and frame size: 
+Mem created
+Do you want Double buffering?
+Enter number of entries :
+Contents of Disk File: 
+Page: 0: 20 6 7 
+Page: 1: 8 9 10 
+Page: 2: 99 8 97 
+Page: 3: 96 95 43 
+Page: 4: 45 76 23 
+Page: 5: 88 74 33 
+Page: 6: 21 15 12 
+==========Pass 1 Performed==========
+Current runSize: 4
+Number of Runs: 2
+Current Disk File: 
+Contents of Disk File: 
+Page: 0: 6 7 8 
+Page: 1: 8 9 10 
+Page: 2: 20 43 95 
+Page: 3: 96 97 99 
+Page: 4: 12 15 21 
+Page: 5: 23 33 45 
+Page: 6: 74 76 88 
+==========Pass 2 performed==========
+Current runSize: 12
+Number of Runs: 1
+Current Disk File: 
+Contents of Disk File: 
+Page: 0: 6 7 8 
+Page: 1: 8 9 10 
+Page: 2: 12 15 20 
+Page: 3: 21 23 33 
+Page: 4: 43 45 74 
+Page: 5: 76 88 95 
+Page: 6: 96 97 99 
+Contents of Disk File: 
+Page: 0: 6 7 8 
+Page: 1: 8 9 10 
+Page: 2: 12 15 20 
+Page: 3: 21 23 33 
+Page: 4: 43 45 74 
+Page: 5: 76 88 95 
+Page: 6: 96 97 99 
