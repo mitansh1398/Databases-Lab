@@ -1,0 +1,39 @@
+
+Enter :- 1:Create New DiskFile, 2:Insert Record, 3:Delete Record, 4:Display DiskFile Structure, -1:Exit
+Choice : Enter number of DataPages to create : Created 2 number of pages of size 100 bytes each in DiskFile...
+Printing created initial DiskFile...
+DiskFile traversal, displaying Pages with Records <ID,Start,Length-Gap,Valid> :
+Page:1  Records{}
+Page:2  Records{}
+
+Enter :- 1:Create New DiskFile, 2:Insert Record, 3:Delete Record, 4:Display DiskFile Structure, -1:Exit
+Choice : Enter Record identifier in int to insert into Pages : 
+Enter Record length in bytes : 
+Record inserted in Page : 1 
+
+Enter :- 1:Create New DiskFile, 2:Insert Record, 3:Delete Record, 4:Display DiskFile Structure, -1:Exit
+Choice : DiskFile traversal, displaying Pages with Records <ID,Start,Length-Gap,Valid> :
+Page:1  Records{<100,0,10-0,true>}
+Page:2  Records{}
+
+Enter :- 1:Create New DiskFile, 2:Insert Record, 3:Delete Record, 4:Display DiskFile Structure, -1:Exit
+Choice : Enter Record identifier in int to delete from Pages : 
+Record deleted from Page : 1 
+
+Enter :- 1:Create New DiskFile, 2:Insert Record, 3:Delete Record, 4:Display DiskFile Structure, -1:Exit
+Choice : Enter Record identifier in int to insert into Pages : 
+Enter Record length in bytes : 
+Record inserted in an empty slot of Page : 1 
+
+Enter :- 1:Create New DiskFile, 2:Insert Record, 3:Delete Record, 4:Display DiskFile Structure, -1:Exit
+Choice : Enter Record identifier in int to insert into Pages : 
+Enter Record length in bytes : 
+Record inserted in Page : 1 
+
+Enter :- 1:Create New DiskFile, 2:Insert Record, 3:Delete Record, 4:Display DiskFile Structure, -1:Exit
+Choice : DiskFile traversal, displaying Pages with Records <ID,Start,Length-Gap,Valid> :
+Page:1  Records{<101,0,10-5,true> <102,10,10-0,true>}
+Page:2  Records{}
+
+Enter :- 1:Create New DiskFile, 2:Insert Record, 3:Delete Record, 4:Display DiskFile Structure, -1:Exit
+Choice : 
