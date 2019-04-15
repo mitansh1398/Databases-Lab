@@ -1,0 +1,5 @@
+Recoverable: Yes
+Cascadeless: Yes
+Strict: Yes
+Serializable: Yes
+Serial Order: 1 2 

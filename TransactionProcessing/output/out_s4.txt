@@ -1,0 +1,9 @@
+Recoverable: Yes
+Cascadeless: No
+Transaction 4 is reading DataItem written by Transaction 3
+And Transaction 3 commits after reading by Transaction 4
+Strict: No
+Transaction 4 is reading DataItem written by Transaction 3
+And Transaction 3 commits after reading by Transaction 4
+Serializable: Yes
+Serial Order: 1 2 3 4 
